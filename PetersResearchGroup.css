@@ -1,0 +1,224 @@
+/* Navbar CSS generated here: http://work.smarchal.com/twbscolor/index.php */
+
+.navbar-default {
+  background-color: #7071ff;;
+  border-color: #d54f4f;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #d54f4f;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #aaffaa;
+}
+.navbar-default .navbar-toggle {
+  border-color: #aaffaa;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #aaffaa;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #d54f4f;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #d54f4f;
+}
+.navbar-default .navbar-link {
+  color: #888888;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #888888;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #aaffaa;
+  }
+}
+
+/***********************************************************/
+
+.navbar-brand img{
+	max-width: 80%;
+	margin-top: -6px;
+	margin-left: 10px;
+}
+
+
+/***********************************************************/
+
+.landing-bg-img{
+	background: url('images/site/homepage_background2.jpg');
+	background-size: 100%;
+	background-repeat: repeat-x;
+}
+
+.landing-text{
+	padding: 0em 3em 0em 3em;
+	color: #008833;
+}
+
+@media (min-width: 768px){
+	.landing-text-spacer{
+		width: 60%;
+	}
+
+	.landing-text{
+		color: #ffffff;
+	}
+}
+
+@media (min-width: 992px){
+	.landing-text-spacer{
+		width: 100%;
+	}
+}
+
+.overview{
+	padding: 1em 2em 5em 2em;
+}
+
+@media (min-width: 768px){
+	.member-photo{
+		width: 50%;
+		float: left;
+	}
+}
+
+.member-profile-contents p{
+	text-align: justify;
+}
+
+.member-profile-contents img{
+	padding: 0em 1em 1em 0em;
+}
+
+.publications h3{
+	background-color: #d54f4f;
+	border-top: thin dotted #003087;
+	border-bottom: thin solid #003087;
+	padding: 0.2em 0em 0.1em 0em;
+  font-size: 170%;
+  color: #003087
+}
+
+.publications h5{
+	background-color: #eeb211;
+	border-top: thin dotted #00254c;
+	border-bottom: thin solid #00254c;
+	padding: 0.2em 0em 0.1em 0em;
+  font-size: 170%;
+  color: #00254c
+}
+
+.publications h6{
+	background-color: #7a0019;
+	border-top: thin dotted #ffcc33;
+	border-bottom: thin solid #ffcc33;
+	padding: 0.2em 0em 0.1em 0em;
+  font-size: 170%;
+  color: #ffcc33
+}
+
+.divider{
+	background-color: #ffcece;
+	border-top: thin dotted #0A0B99;
+	border-bottom: thin solid #0A0B99;
+	padding: 0.2em 0em 0.1em 0em;
+}
+
+.publication{
+	padding: 2em 2em 2em 2em;
+}
+
+.funding{
+	font-size: 80%;
+}
+
+@media (max-width: 767px) {
+
+	.publication{
+		padding: 1em 1em 1em 1em;
+	}
+
+    .toc-graphic{
+		display:none;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .publication-row>.clear:nth-child(4n)::before {
+      content: '';
+      display: table;
+      clear: both;
+    }
+}
+@media (min-width: 992px) {
+    .publication-row>.clear:nth-child(3n)::before {
+      content: '';
+      display: table;
+      clear: both;
+    }
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 80px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+
+  background-color: #7071ff;
+  border-color: #d54f4f;
+  color: #ffffff;
+}
