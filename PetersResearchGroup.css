@@ -34,7 +34,11 @@
   background-color: #0000FF;
 }
 .navbar-default .navbar-toggle {
+<<<<<<< HEAD
   border-color: #0000FF;
+=======
+  border-color: #d54f4f;
+>>>>>>> origin/master
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
