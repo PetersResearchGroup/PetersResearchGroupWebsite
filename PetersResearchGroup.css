@@ -34,11 +34,11 @@
   background-color: #0000FF;
 }
 .navbar-default .navbar-toggle {
-  border-color: #aaffaa;
+  border-color: #0000FF;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #aaffaa;
+  background-color: #0000FF;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #d54f4f;
@@ -66,7 +66,7 @@
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #aaffaa;
+    background-color: #0000FF;
   }
 }
 
@@ -89,7 +89,7 @@
 
 .landing-text{
 	padding: 0em 3em 0em 3em;
-	color: #008833;
+	color: #000000;
 }
 
 @media (min-width: 768px){
