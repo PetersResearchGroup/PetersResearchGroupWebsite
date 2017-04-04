@@ -86,7 +86,7 @@
 /***********************************************************/
 
 .landing-bg-img{
-	background: url('images/site/homepage_background2.jpg');
+	background: url('images/site/tempback2.jpg');
 	background-size: 100%;
 	background-repeat: repeat-x;
 }
@@ -102,7 +102,7 @@
 	}
 
 	.landing-text{
-		color: #ffffff;
+		color: #000000;
 	}
 }
 
@@ -197,6 +197,9 @@
       clear: both;
     }
 }
+
+
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
