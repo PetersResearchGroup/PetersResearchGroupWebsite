@@ -86,7 +86,12 @@
 /***********************************************************/
 
 .landing-bg-img{
-	background: url('images/site/Homepage Background.jpg');
+	background: url('images/site/Homepage Background_no_text.jpg');
+	background-size: 100%;
+	background-repeat: repeat-x;
+}
+.landing-bg-img-mobile{
+	background: url('images/site/Homepage Background_mobile.jpg');
 	background-size: 100%;
 	background-repeat: repeat-x;
 }
