@@ -1,8 +1,10 @@
 /* Navbar CSS generated here: http://work.smarchal.com/twbscolor/index.php */
 
 .navbar-default {
-  background-color: #7071ff;;
-  border-color: #d54f4f;
+  background-color: #1F4995;;
+  border-color: #CB333B;
+  border-bottom-width: 3px;
+  min-height:80px;
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
@@ -25,37 +27,44 @@
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #d54f4f;
+  background-color: #CB333B;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #ffffff;
-  background-color: #0000FF;
+  background-color: #003087;
 }
 .navbar-default .navbar-toggle {
 <<<<<<< HEAD
-  border-color: #0000FF;
+  border-color: #003087;
 =======
-  border-color: #d54f4f;
+  border-color: #CB333B;
 >>>>>>> origin/master
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #0000FF;
+  background-color: #003087;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #d54f4f;
+  background-color: #CB333B;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #d54f4f;
+  border-color: #CB333B;
 }
 .navbar-default .navbar-link {
   color: #888888;
 }
 .navbar-default .navbar-link:hover {
   color: #ffffff;
+}
+
+.nav {
+    position: absolute;
+    bottom: 0;
+    left: 370px;
+    margin-bottom: 0px;
 }
 
 @media (max-width: 767px) {
@@ -70,7 +79,7 @@
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #0000FF;
+    background-color: #003087;
   }
 }
 
@@ -136,13 +145,22 @@
 	padding: 0em 1em 1em 0em;
 }
 
+.members h3{
+  color: black;
+    /*text-shadow:
+    -0.5px -0.5px 0 #FFFFFF,
+    0.5px -0.5px 0 #FFFFFF,
+    -0.5px 0.5px 0 #FFFFFF,
+    0.5px 0.5px 0 #FFFFFF;*/
+}
+
 .publications h3{
-	background-color: #d54f4f;
-	border-top: thin dotted #003087;
-	border-bottom: thin solid #003087;
+	background-color: #CB333B;
+	border-top: thin dotted #1F4995;
+	border-bottom: thin solid #1F4995;
 	padding: 0.2em 0em 0.1em 0em;
   font-size: 170%;
-  color: #003087
+  color: #1F4995
 }
 
 .publications h5{
@@ -164,7 +182,7 @@
 }
 
 .divider{
-	background-color: #ffcece;
+	background-color: #D9666B;
 	border-top: thin dotted #0A0B99;
 	border-bottom: thin solid #0A0B99;
 	padding: 0.2em 0em 0.1em 0em;
@@ -230,7 +248,7 @@ body {
 #footer {
   height: 60px;
 
-  background-color: #7071ff;
-  border-color: #d54f4f;
+  background-color: #1F4995;
+  border-color: #CB333B;
   color: #ffffff;
 }
