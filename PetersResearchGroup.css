@@ -61,10 +61,9 @@
 }
 
 .nav {
-    position: absolute;
-    bottom: 0;
-    left: 370px;
-    margin-bottom: 0px;
+    position: relative;
+    bottom: -30px;
+    right: -100px;
 }
 
 @media (max-width: 767px) {
@@ -153,6 +152,8 @@
     -0.5px 0.5px 0 #FFFFFF,
     0.5px 0.5px 0 #FFFFFF;*/
 }
+
+.Bigger { font-size:130%; }
 
 .publications h3{
 	background-color: #CB333B;
