@@ -35,13 +35,14 @@
   color: #ffffff;
   background-color: #003087;
 }
-.navbar-default .navbar-toggle {
+/*.navbar-default .navbar-toggle {
 <<<<<<< HEAD
   border-color: #003087;
 =======
   border-color: #CB333B;
 >>>>>>> origin/master
-}
+}*/
+
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #003087;
@@ -52,6 +53,8 @@
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #CB333B;
+  position:relative;
+  bottom: -30px;
 }
 
 
@@ -64,7 +67,7 @@
 
 .nav {
     position: relative;
-    bottom: -30px;
+    /*bottom: -30px;*/
     right: -100px;
 }
 
