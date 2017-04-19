@@ -54,7 +54,7 @@
 .navbar-default .navbar-form {
   border-color: #CB333B;
   position:relative;
-  bottom: -30px;
+  top: 30px;
 }
 
 
