@@ -52,7 +52,10 @@
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #CB333B;
+  position:relative;
+  top:30px;
 }
+
 .navbar-default .navbar-link {
   color: #888888;
 }
